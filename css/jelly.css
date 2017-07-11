@@ -1,0 +1,162 @@
+body {
+	background:#333;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+.content{
+	height:100%;
+	margin:0 auto;
+	width:938px;
+	/*border:1px solid black;*/
+}
+#wrap{
+	/*border:1px solid black;*/
+	height:100%;
+}
+nav{
+	width:100%;
+	height:96px;
+	margin-top:23px;
+	/*border:1px solid black;*/
+}
+#logo{
+	height:100%;
+	width:234px;
+	/*border:1px solid black;*/
+}
+.list{
+	width:556px;
+	height:37px;
+	/*border:1px solid black;*/
+	margin:36px auto;
+}
+.list li{
+	display:inline-block;
+	font-size:1.2em;
+	font-weight:bold;
+	width:100px;
+	/*border:1px solid black;*/
+	text-align:center;
+}
+.list li:last-child{
+	width:180px;
+}
+#menu{
+	/*border:1px solid black;*/
+	width:696px;
+	height:100%;
+}
+.list li a{
+	color:#ffcc00;
+}
+.active{
+	color:black;
+	background:#ffcc00;
+}
+/**big-font**/
+.big-font p{
+	font-size:4.5em;
+}
+
+.features{
+	/*border:1px solid black;*/
+	height:300px;
+	width:100%;
+	/*text-align:center;*/
+}
+.f-list li{
+	display:inline-block;
+	width:30%;
+	height:100%;
+}
+.f-title{
+	font-size:1.5em;
+	font-weight:bold;
+	margin:25px 0;
+	color:#ddd;
+}
+.f-content{
+	font-size:1.2em;
+	color:#ddd;
+}
+.f-link{
+	margin:25px 0;
+	color:#ddd;
+}
+.f-link a{
+	color:#cdb600;
+}
+.slogan{
+	height:151px;
+	background:#3f1f1f;
+	box-shadow: inset 0 3px 10px rgba(0,0,0,.4);
+}
+.slogan>p{
+	color:white;
+	font-size:1.3em;
+	display:inline-block;
+	/*margin-left:214px;*/
+	margin-top:60px;
+}	
+.code{
+	z-index:1;
+	position:absolute;
+	top:588px;
+	left:578px;
+}
+.free{
+	height:349px;
+	/*border:1px solid black;*/
+}
+.free-content{
+	width:100%;
+	height:232px;
+	background:#444444;
+	margin-top:70px;
+	/*border:1px solid black;*/
+}
+.oct{
+	width:306px;
+	height:252px;
+	float:left;
+	margin-top:-20px;
+}
+.free-wrap{
+	/*border:1px solid black;*/
+	width:696px;
+	height:100%;
+	margin-left:240px;
+}
+footer{
+	height:166px;
+	/*border:1px solid black;*/
+	background:#222222;
+}
+footer p{
+	display:block;
+	margin:30px;
+	color:#7e8083;
+	font-size:1em;
+	width:293px;
+}
+footer a{
+	color:white;
+}
+.github{
+	font-size:2em;
+	font-weight:bold;
+}
